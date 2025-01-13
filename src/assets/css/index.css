@@ -1,0 +1,14 @@
+.login-container {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: top;
+}  
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .login-container {
+        background-image: url('../images/background-mobile.jpg');
+        background-size: cover;
+        background-position: top;
+        padding: 1rem;
+    }  
+}
